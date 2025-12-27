@@ -1,0 +1,85 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+    background: rgba(17, 17, 27, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #cdd6f4;
+}
+
+/* Modullar üçün ümumi "Şüşə" qutusu */
+#workspaces,
+#clock,
+#tray,
+#network,
+#bluetooth,
+#temperature,
+#battery,
+#pulseaudio,
+#backlight,
+#window {
+    background: rgba(17, 17, 27, 0.6); /* Çox tünd, yarımşəffaf fon */
+    color: #ffffff; /* Mətn rəngi: Açıq ağ-boz */
+    padding: 4px 12px;
+    margin: 4px 3px;
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.08); /* İncə parıltı çərçivəsi */
+}
+
+/* Sol tərəf: Workspaces xüsusi ayarları */
+#workspaces button {
+    padding: 0 5px;
+    color: #585b70; /* Passiv (sönük) rəng */
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #ffffff; /* Aktiv olanda tam ağ olsun */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Parıltı effekti */
+    background: transparent;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    color: #cdd6f4;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Sağ tərəf: İkonlar və Mətnlər */
+#network, #bluetooth, #temperature, #battery, #pulseaudio, #backlight {
+    color: #cdd6f4;
+}
+
+/* Batareya az olanda qırmızıya çalsın (amma çox parlaq yox) */
+#battery.critical {
+    color: #f38ba8;
+    border: 1px solid rgba(243, 139, 168, 0.5);
+}
+
+/* Səs sönəndə */
+#pulseaudio.muted {
+    color: #6c7086;
+    text-decoration: line-through;
+}
+
+/* Tray (sistem ikonları) */
+#tray {
+    padding: 0 10px;
+}
+
+/* Ortadakı Pəncərə adı - Daha solğun olsun */
+#window {
+    background: rgba(17, 17, 27, 0.4);
+    color: #a6adc8;
+}
