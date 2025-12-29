@@ -58,13 +58,15 @@ hyprctl dispatch restart to reload Hyprland
 🎨 Wallpapers
 
 All wallpapers used in this setup are listed here:
-👉 wallpapers/links.txt
+wallpapers/links.txt
 
 
 🧰 Tools & Dependencies
+```
 Component  Package
 WM	   hyprland
 Wallpaper  hyprpaper
 Terminal   kitty
 Shell	   zsh
 Bar 	   waybar
+```
