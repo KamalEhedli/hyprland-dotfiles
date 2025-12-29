@@ -64,7 +64,7 @@ wallpapers/links.txt
 🧰 Tools & Dependencies
 ```
 Component  Package
-WM             hyprland
+WM         hyprland
 Wallpaper  hyprpaper
 Terminal   kitty
 Shell	   zsh
