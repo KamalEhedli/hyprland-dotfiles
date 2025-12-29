@@ -9,11 +9,10 @@ Minimal, productive and keyboard-focused workflow with aesthetic looks.
 
 ## 🖼️ Screenshots
 
-| Full Setup |
-|------------|
-| ![](screenshots/full_setup.png) |
-
----
+### Full Setup
+<p align="center">
+  <img src="screenshots/full-setup.png" width="85%">
+</p>
 
 ## ✨ Features
 
@@ -28,7 +27,7 @@ Minimal, productive and keyboard-focused workflow with aesthetic looks.
 ---
 
 ## 📂 Directory Structure
-
+```
 hyprland-dotfiles
 │
 ├── dotfiles
@@ -40,7 +39,7 @@ hyprland-dotfiles
 ├── wallpapers # links.txt holding wallpaper URLs
 ├── screenshots # setup showcase images
 └── scripts # install & automation
-
+```
 
 ---
 
@@ -51,7 +50,7 @@ git clone git@github.com:KamalEhedli/hyprland-dotfiles.git
 cd hyprland-dotfiles
 chmod +x scripts/install.sh
 ./scripts/install.sh
-
+```
 💡 After install:
 hyprctl dispatch restart to reload Hyprland
 
