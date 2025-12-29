@@ -53,8 +53,10 @@ chmod +x scripts/install.sh
 ```
 💡 After install:
 ```
-hyprctl dispatch restart to reload Hyprland
+hyprctl dispatch restart 
 ```
+to reload Hyprland
+
 
 🎨 Wallpapers
 
