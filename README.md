@@ -52,12 +52,14 @@ chmod +x scripts/install.sh
 ./scripts/install.sh
 ```
 💡 After install:
+```
 hyprctl dispatch restart to reload Hyprland
-
+```
 
 🎨 Wallpapers
 
 All wallpapers used in this setup are listed here:
+
 wallpapers/links.txt
 
 
